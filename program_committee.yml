@@ -4,7 +4,7 @@
     first_name: Eugene
     google_scholar_id: https://scholar.google.com/citations?user=JVqgs4gAAAAJ
     homepage: https://eugene.zone
-    institution: Johns Hopkins University
+    institution: Human Language Technology Center of Excellence, Johns Hopkins University
     last_name: Yang
     name: Eugene Yang
     orcid: https://orcid.org/0000-0002-0051-1535
@@ -15,7 +15,7 @@
     first_name: Dawn
     google_scholar_id: https://scholar.google.com/citations?user=Ij9zwyoAAAAJ&hl=en
     homepage: https://hltcoe.jhu.edu/researcher/dawn-lawrie/
-    institution: Johns Hopkins University
+    institution: Human Language Technology Center of Excellence, Johns Hopkins University
     last_name: Lawrie
     name: Dawn Lawrie
     orcid: https://orcid.org/0000-0001-7347-7086
@@ -36,8 +36,8 @@
     emails: '****@gmail.com'
     first_name: James
     google_scholar_id: https://scholar.google.com/citations?user=gsIkQ-4AAAAJ&hl=en&oi=ao
-    institution: Johns Hopkins University and Johns Hopkins University Applied Physics
-      Laboratory
+    institution: Human Language Technology Center of Excellence, Johns Hopkins University,
+      and Johns Hopkins University Applied Physics Laboratory
     last_name: Mayfield
     name: James Mayfield
     orcid: https://orcid.org/0000-0003-3866-3013
@@ -59,7 +59,7 @@
     first_name: Andrew
     google_scholar_id: https://scholar.google.de/citations?user=b4ciDMsAAAAJ&hl=en
     homepage: https://andrewyates.net
-    institution: Johns Hopkins University
+    institution: Human Language Technology Center of Excellence, Johns Hopkins University
     last_name: Yates
     name: Andrew Yates
     orcid: https://orcid.org/0000-0002-5970-880X
@@ -72,6 +72,7 @@
     first_name: Andreas
     google_scholar_id: https://scholar.google.com/citations?user=zL9naDAAAAAJ&hl=en
     homepage: https://www.gla.ac.uk/pgrs/andreaschari/
+    institution: University of Glasgow
     last_name: Chari
     name: Andreas Chari
     orcid: https://orcid.org/0009-0007-9246-8207
@@ -80,6 +81,7 @@
     first_name: Susmita
     google_scholar_id: https://scholar.google.com/citations?user=_P2f8dkAAAAJ&hl=en
     homepage: https://www.gla.ac.uk/pgrs/susmitadas/#
+    institution: University of Glasgow
     last_name: Das
     name: Susmita Das
     username: ~Susmita_Das1
@@ -87,6 +89,7 @@
     first_name: Maxime
     google_scholar_id: https://scholar.google.com/citations?user=29jdVFcAAAAJ&hl=en&pli=1
     homepage: https://maximeswd.github.io/
+    institution: University of Amsterdam
     last_name: Dassen
     name: Maxime Dassen
     username: ~Maxime_Dassen1
@@ -121,6 +124,7 @@
   - dblp_id: https://dblp.org/pid/371/4642
     emails: '****@research.gla.ac.uk'
     first_name: Andrew
+    institution: University of Glasgow
     last_name: Parry
     name: Andrew Parry
     orcid: https://orcid.org/0000-0001-5446-8328
@@ -138,10 +142,10 @@
     username: ~Saron_Samuel1
   - emails: '****@uva.nl'
     first_name: Siddharth
+    institution: University of Amsterdam
     last_name: Singh
     middle_name: AK
     name: Siddharth AK Singh
     orcid: https://orcid.org/0009-0009-8835-5845
     username: ~Siddharth_AK_Singh1
   role: Reviewers
-  type: name_block

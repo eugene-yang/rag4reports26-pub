@@ -1,6 +1,6 @@
 - speaker_name: Chris Callison-Burch
   institution: University of Pennsylvania
   title: TBD
-  abstract_file: invited_talks/ccb_abstract.tex
-  bio_file: invited_talks/ccb_bio.tex
-  # photo_file: invited_talks/ccb_photo.jpg   # add once you have a headshot
+  abstract_file: ccb_abstract.tex
+  bio_file: ccb_bio.tex
+  photo: ccb_photo.jpg
