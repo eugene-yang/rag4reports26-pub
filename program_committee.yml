@@ -1,0 +1,147 @@
+- entries:
+  - dblp_id: https://dblp.org/pid/127/0482-1
+    emails: eyang35@jh.edu
+    first_name: Eugene
+    google_scholar_id: https://scholar.google.com/citations?user=JVqgs4gAAAAJ
+    homepage: https://eugene.zone
+    institution: Johns Hopkins University
+    last_name: Yang
+    name: Eugene Yang
+    orcid: https://orcid.org/0000-0002-0051-1535
+    semantic_scholar_id: https://www.semanticscholar.org/author/Eugene-Yang/153564640
+    username: ~Eugene_Yang2
+  - dblp_id: https://dblp.org/pid/l/DawnLawrie
+    emails: '****@jhu.edu'
+    first_name: Dawn
+    google_scholar_id: https://scholar.google.com/citations?user=Ij9zwyoAAAAJ&hl=en
+    homepage: https://hltcoe.jhu.edu/researcher/dawn-lawrie/
+    institution: Johns Hopkins University
+    last_name: Lawrie
+    name: Dawn Lawrie
+    orcid: https://orcid.org/0000-0001-7347-7086
+    semantic_scholar_id: https://www.semanticscholar.org/author/2539674
+    username: ~Dawn_Lawrie1
+  - dblp_id: https://dblp.org/pid/203/8759
+    emails: '****@glasgow.ac.uk'
+    first_name: Sean
+    google_scholar_id: https://scholar.google.com/citations?user=7wWfoDgAAAAJ
+    homepage: https://macavaney.us/
+    institution: University of Glasgow
+    last_name: MacAvaney
+    name: Sean MacAvaney
+    orcid: https://orcid.org/0000-0002-8914-2659
+    semantic_scholar_id: https://www.semanticscholar.org/author/Sean-MacAvaney/22214396
+    username: ~Sean_MacAvaney1
+  - dblp_id: https://dblp.org/pid/59/2681
+    emails: '****@gmail.com'
+    first_name: James
+    google_scholar_id: https://scholar.google.com/citations?user=gsIkQ-4AAAAJ&hl=en&oi=ao
+    institution: Johns Hopkins University and Johns Hopkins University Applied Physics
+      Laboratory
+    last_name: Mayfield
+    name: James Mayfield
+    orcid: https://orcid.org/0000-0003-3866-3013
+    semantic_scholar_id: https://www.semanticscholar.org/author/James-Mayfield/2298905578
+    username: ~James_Mayfield1
+  - dblp_id: https://dblp.org/pid/160/1741
+    emails: '****@soldaini.net'
+    first_name: Luca
+    google_scholar_id: https://scholar.google.com/citations?user=3KPvwcgAAAAJ&hl=en
+    homepage: https://soldaini.net
+    institution: Microsoft AI
+    last_name: Soldaini
+    name: Luca Soldaini
+    orcid: https://orcid.org/0000-0001-6998-9863
+    semantic_scholar_id: https://www.semanticscholar.org/author/Luca-Soldaini/3328733
+    username: ~Luca_Soldaini1
+  - dblp_id: https://dblp.org/pid/49/7109
+    emails: '****@gmail.com'
+    first_name: Andrew
+    google_scholar_id: https://scholar.google.de/citations?user=b4ciDMsAAAAJ&hl=en
+    homepage: https://andrewyates.net
+    institution: Johns Hopkins University
+    last_name: Yates
+    name: Andrew Yates
+    orcid: https://orcid.org/0000-0002-5970-880X
+    semantic_scholar_id: https://www.semanticscholar.org/author/Andrew-Yates/144115896
+    username: ~Andrew_Yates2
+  role: Program Chairs
+- entries:
+  - dblp_id: https://dblp.org/pid/351/9869
+    emails: '****@research.gla.ac.uk'
+    first_name: Andreas
+    google_scholar_id: https://scholar.google.com/citations?user=zL9naDAAAAAJ&hl=en
+    homepage: https://www.gla.ac.uk/pgrs/andreaschari/
+    last_name: Chari
+    name: Andreas Chari
+    orcid: https://orcid.org/0009-0007-9246-8207
+    username: ~Andreas_Chari1
+  - emails: '****@student.gla.ac.uk'
+    first_name: Susmita
+    google_scholar_id: https://scholar.google.com/citations?user=_P2f8dkAAAAJ&hl=en
+    homepage: https://www.gla.ac.uk/pgrs/susmitadas/#
+    last_name: Das
+    name: Susmita Das
+    username: ~Susmita_Das1
+  - emails: '****@uva.nl'
+    first_name: Maxime
+    google_scholar_id: https://scholar.google.com/citations?user=29jdVFcAAAAJ&hl=en&pli=1
+    homepage: https://maximeswd.github.io/
+    last_name: Dassen
+    name: Maxime Dassen
+    username: ~Maxime_Dassen1
+  - dblp_id: https://dblp.org/pid/191/6089
+    emails: '****@gmail.com'
+    first_name: Pooja
+    google_scholar_id: https://scholar.google.com/citations?user=lPHcYBIAAAAJ&hl=en
+    homepage: https://poojajhunjhunwala.netlify.app/
+    institution: Google
+    last_name: Jhunjhunwala
+    name: Pooja Jhunjhunwala
+    orcid: https://orcid.org/0009-0005-1533-7866
+    semantic_scholar_id: https://www.semanticscholar.org/author/Pooja-Jhunjhunwala/2316063868
+    username: ~Pooja_Jhunjhunwala1
+  - emails: '****@student.gla.ac.uk'
+    first_name: Kangheng
+    institution: University of Glasgow
+    last_name: Liang
+    name: Kangheng Liang
+    orcid: https://orcid.org/0009-0005-1367-0606
+    username: ~Kangheng_Liang1
+  - emails: '****@student.gla.ac.uk'
+    first_name: Emmanouil
+    google_scholar_id: https://scholar.google.com/citations?user=b6u3wtgAAAAJ&hl=el
+    homepage: https://lionisakis.github.io/
+    institution: University of Glasgow
+    last_name: Lionis
+    middle_name: Georgios
+    name: Emmanouil Georgios Lionis
+    orcid: https://orcid.org/0009-0004-3931-9657
+    username: ~Emmanouil_Georgios_Lionis1
+  - dblp_id: https://dblp.org/pid/371/4642
+    emails: '****@research.gla.ac.uk'
+    first_name: Andrew
+    last_name: Parry
+    name: Andrew Parry
+    orcid: https://orcid.org/0000-0001-5446-8328
+    username: ~Andrew_Parry2
+  - dblp_id: https://dblp.org/pid/380/7716
+    emails: '****@jh.edu'
+    first_name: Saron
+    google_scholar_id: https://scholar.google.com/citations?user=PskaY_4AAAAJ
+    homepage: https://saronsamuel.com/
+    institution: Johns Hopkins University
+    last_name: Samuel
+    name: Saron Samuel
+    orcid: https://orcid.org/0009-0002-1827-2023
+    semantic_scholar_id: https://www.semanticscholar.org/author/Saron-Samuel/2352099324
+    username: ~Saron_Samuel1
+  - emails: '****@uva.nl'
+    first_name: Siddharth
+    last_name: Singh
+    middle_name: AK
+    name: Siddharth AK Singh
+    orcid: https://orcid.org/0009-0009-8835-5845
+    username: ~Siddharth_AK_Singh1
+  role: Reviewers
+  type: name_block

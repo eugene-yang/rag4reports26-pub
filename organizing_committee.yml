@@ -1,0 +1,55 @@
+- role: Workshop Organizers
+  entries:
+  - first_name: Eugene
+    last_name: Yang
+    name: Eugene Yang
+    institution: Johns Hopkins University
+    dblp_id: https://dblp.org/pid/127/0482-1
+    google_scholar_id: https://scholar.google.com/citations?user=JVqgs4gAAAAJ
+    homepage: https://eugene.zone
+    orcid: https://orcid.org/0000-0002-0051-1535
+    semantic_scholar_id: https://www.semanticscholar.org/author/Eugene-Yang/153564640
+  - first_name: Dawn
+    last_name: Lawrie
+    name: Dawn Lawrie
+    institution: Johns Hopkins University
+    dblp_id: https://dblp.org/pid/l/DawnLawrie
+    google_scholar_id: https://scholar.google.com/citations?user=Ij9zwyoAAAAJ&hl=en
+    homepage: https://hltcoe.jhu.edu/researcher/dawn-lawrie/
+    orcid: https://orcid.org/0000-0001-7347-7086
+    semantic_scholar_id: https://www.semanticscholar.org/author/2539674
+  - first_name: Sean
+    last_name: MacAvaney
+    name: Sean MacAvaney
+    institution: University of Glasgow
+    dblp_id: https://dblp.org/pid/203/8759
+    google_scholar_id: https://scholar.google.com/citations?user=7wWfoDgAAAAJ
+    homepage: https://macavaney.us/
+    orcid: https://orcid.org/0000-0002-8914-2659
+    semantic_scholar_id: https://www.semanticscholar.org/author/Sean-MacAvaney/22214396
+  - first_name: James
+    last_name: Mayfield
+    name: James Mayfield
+    institution: Johns Hopkins University and Johns Hopkins University Applied Physics Laboratory
+    dblp_id: https://dblp.org/pid/59/2681
+    google_scholar_id: https://scholar.google.com/citations?user=gsIkQ-4AAAAJ&hl=en&oi=ao
+    orcid: https://orcid.org/0000-0003-3866-3013
+    semantic_scholar_id: https://www.semanticscholar.org/author/James-Mayfield/2298905578
+  - first_name: Luca
+    last_name: Soldaini
+    name: Luca Soldaini
+    institution: Microsoft AI
+    dblp_id: https://dblp.org/pid/160/1741
+    google_scholar_id: https://scholar.google.com/citations?user=3KPvwcgAAAAJ&hl=en
+    homepage: https://soldaini.net
+    orcid: https://orcid.org/0000-0001-6998-9863
+    semantic_scholar_id: https://www.semanticscholar.org/author/Luca-Soldaini/3328733
+  - first_name: Andrew
+    last_name: Yates
+    name: Andrew Yates
+    institution: Johns Hopkins University
+    dblp_id: https://dblp.org/pid/49/7109
+    google_scholar_id: https://scholar.google.de/citations?user=b4ciDMsAAAAJ&hl=en
+    homepage: https://andrewyates.net
+    orcid: https://orcid.org/0000-0002-5970-880X
+    semantic_scholar_id: https://www.semanticscholar.org/author/Andrew-Yates/144115896
