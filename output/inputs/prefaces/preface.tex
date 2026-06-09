@@ -1,0 +1,115 @@
+% Preface for the First Workshop on Multilingual Report Generation via
+% Retrieval Augmented Generation (RAG4Reports), co-located with ACL 2026.
+
+Welcome to the First Workshop on Multilingual Report Generation via
+Retrieval Augmented Generation (RAG4Reports), a half-day workshop
+co-located with ACL 2026 in San Diego, CA, USA.
+
+\begin{quote}
+\textit{A workshop on multilingual long-form report generation focusing on
+evaluating faithfulness and information coverage, tying together retrieval,
+generation, and evaluation research.}
+\end{quote}
+
+% ---------------------------------------------------------------------------
+% Motivation: why this workshop, why now
+% ---------------------------------------------------------------------------
+Incorporating external source information with parametric knowledge from large
+language models to provide a comprehensive and grounded response to the users has
+become a central component in modern AI applications.
+\emph{Report generation} is a long-form
+retrieval-augmented generation (RAG) task with strict attestation requirements
+that makes it well-suited to explore questions of RAG evaluation and generation:
+a long-form report summarizing the relevant information in a corpus is produced in
+response to a report request, and the generated report should provide
+proper attribution to source documents to establish trust.
+
+RAG4Reports 2026 focuses on two urgent problems in report generation that
+require a community effort to tackle: \emph{evaluation} and
+\emph{multilinguality}. While numerous research papers on RAG have been
+published in recent years, including proposed evaluation approaches, the
+community has yet to reach a consensus on benchmarks and evaluation
+measures for long-form, citation-grounded outputs. At the same time, as
+generation models are increasingly multilingual and capable of incorporating
+source information in different languages, report generation systems
+should be fair to different languages and produce reports that the user can consume 
+from relevant sources regardless of languages. The aim of this workshop is to bring
+together researchers from information retrieval, natural language
+processing, and applied domains to establish common ground for developing
+and evaluating multilingual report generation systems.
+
+% ---------------------------------------------------------------------------
+% Submission statistics
+% ---------------------------------------------------------------------------
+The workshop solicited contributions through two tracks. The \emph{research
+track} received 11 submissions through OpenReview, of which 9 were
+accepted; of these, one was subsequently withdrawn and two were accepted as
+non-archival submissions. The \emph{shared task track} attracted 21
+registered teams, from which we received 8 system description papers. The
+proceedings therefore contain 14 papers (6 research and 8 shared task), and
+16 accepted papers are presented at the workshop as posters, with a subset
+selected for oral presentation.
+
+% ---------------------------------------------------------------------------
+% Shared task overview
+% ---------------------------------------------------------------------------
+A central component of this workshop is the RAG4Reports shared task, which
+builds on the 2024 NeuCLIR\footnote{\url{https://neuclir.github.io/}} and 
+2025 RAGTIME\footnote{\url{https://trec-ragtime.github.io/}} shared tasks at the Text
+Retrieval Conference (TREC) and extends them to the natural language
+understanding community, with an explicit focus on non-English languages.
+The shared task was hosted on TIRA\footnote{\url{https://www.tira.io/}},
+which enables reproducible system evaluation through containerized
+submissions.
+
+The shared task consists of two sub-tasks. \emph{Task~A: Automatic Report
+Evaluation} asks participants to rank system-generated reports from the
+2025 TREC RAGTIME submissions against human annotations, accepting both
+fully automatic and semi-automatic submissions (the latter using
+organizer-provided essential facts). \emph{Task~B: Multilingual Report
+Generation} asks participants to generate long-form, citation-grounded
+reports from a corpus of four million English, Chinese, Russian, and Arabic
+documents sampled from Common Crawl News (2021--2024), where each generated
+sentence must be attributable to a cited source and the report must match
+the language of the request. Submissions to Task~B were scored
+automatically with the ARGUE framework and
+its automatic implementation, Auto-ARGUE\footnote{\url{https://github.com/hltcoe/auto-argue}}, 
+which combines nugget coverage
+(whether information units expected of a good report are present) with
+sentence support (whether each generated sentence is faithful to its cited
+evidence).
+
+% ---------------------------------------------------------------------------
+% Keynote
+% ---------------------------------------------------------------------------
+We are delighted to host a keynote talk by Professor Chris Callison-Burch (University
+of Pennsylvania) on rubric-based evaluation of LLM-generated text, which speaks to the
+central theme of the RAG4Reports Workshop. Prof Callison-Burch has more than 200
+publications, which have been cited over 36,000 times. He is a Sloan Research Fellow,
+and he has received faculty research awards from Google, Microsoft, Amazon, Facebook,
+and Roblox, in addition to funding from DARPA, IARPA, and the NSF.
+
+% ---------------------------------------------------------------------------
+% Acknowledgments
+% ---------------------------------------------------------------------------
+This workshop would not have been possible without the contributions of many
+people. We thank the program committee and external reviewers for their
+careful and timely feedback; the shared task participants for engaging with
+the benchmark and pushing its limits; and the TIRA team, particularly Maik Fröbe,
+for hosting and supporting our evaluation infrastructure. 
+We thank the ACL 2026 workshop chairs and
+publication chairs for their guidance throughout the organization process. 
+Finally, we thank all of the authors and shared task participants who submitted
+their work. 
+
+\bigskip
+
+\noindent
+We hope you enjoy the workshop and the discussions it sparks.
+
+\bigskip
+
+\noindent
+\textit{The RAG4Reports 2026 Workshop Organizers}\\
+Eugene Yang, Dawn Lawrie, Sean MacAvaney, James Mayfield,\\
+Luca Soldaini, and Andrew Yates

@@ -1,0 +1,24 @@
+book_title: Proceedings of the 1st Workshop on Multilingual Report Generation via Retrieval Augmented Generation (RAG4Reports 2026)
+event_name: The First Workshop on Multilingual Report Generation via Retrieval Augmented Generation (RAG4Reports)
+cover_subtitle: Proceedings of the Workshop
+anthology_venue_id: RAG4Reports
+start_date: 2026-07-04
+end_date: 2026-07-04
+isbn: 979-8-89176-417-0
+location: San Diego, CA, USA
+editors:
+  - first_name: Eugene
+    last_name: Yang
+  - first_name: Dawn
+    last_name: Lawrie
+  - first_name: Sean
+    last_name: MacAvaney
+  - first_name: James
+    last_name: Mayfield
+  - first_name: Luca
+    last_name: Soldaini
+  - first_name: Andrew
+    last_name: Yates
+publisher: Association for Computational Linguistics
+volume_name: 1
+watermark_book_title: Proceedings of the First Workshop on Multilingual Report Generation via Retrieval Augmented Generation (RAG4Reports)

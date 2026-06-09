@@ -1,0 +1,6 @@
+- speaker_name: Chris Callison-Burch
+  institution: University of Pennsylvania
+  title: 'Autorubric: A Unified Framework for Rubric-Based LLM Evaluation'
+  abstract_file: ccb_abstract.tex
+  bio_file: ccb_bio.tex
+  photo: ccb_photo.jpg

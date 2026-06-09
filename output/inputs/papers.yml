@@ -1,0 +1,775 @@
+- abstract: The rapid growth of scientific publications makes it increasingly difficult
+    to track and synthesize research progress. While Large Language Models (LLMs)
+    can support automated survey generation, existing methods retrieve unstructured
+    data and require models to infer conceptual, methodological, and taxonomic relations
+    from raw text at generation time. We introduce StructSurvey, a hierarchical multi-agent
+    framework that shifts structural reasoning from generation to retrieval by dynamically
+    constructing graph-based representations of entities, relations, and topical taxonomies.
+    We evaluate StructSurvey on a new reference-grounded benchmark of ACL survey papers
+    for reproducible long-form scientific summarization. Compared with embedding-only
+    retrieval baselines, StructSurvey improves ROUGE-1 recall by +2.9 and ROUGE-2
+    recall by +1.0 on average, without reducing precision. It also improves LLM-as-a-Judge
+    ratings for logical structure, depth, and synthesis, showing that explicit structural
+    retrieval yields surveys closer to human-written organization and reasoning.
+  archival: false
+  attributes:
+    paper_type: research paper
+    presentation_type: poster
+  authors:
+  - dblp: https://dblp.org/pid/280/0161.html
+    email: ''
+    first_name: Paolo
+    google_scholar: https://scholar.google.com/citations?user=ibjBjyMAAAAJ&hl=en&oi=ao
+    institution: ''
+    last_name: Pedinotti
+    semantic_scholar: https://www.semanticscholar.org/author/Paolo-Pedinotti/2029669716
+  - dblp: https://dblp.org/pid/148/4556
+    email: ''
+    first_name: Enrico
+    google_scholar: https://scholar.google.com/citations?user=nzJFv0IAAAAJ&hl=en
+    homepage: https://www.esantus.com
+    institution: Bloomberg
+    last_name: Santus
+    semantic_scholar: https://www.semanticscholar.org/author/Enrico-Santus/2628786
+  id: 1
+  title: 'StructSurvey: Structured Agentic Retrieval for Automated Survey Paper Generation'
+- abstract: Recent advances in Large Language Models (LLMs) and Retrieval-Augmented
+    Generation (RAG) have enabled diverse retrieval methods. However, existing retrieval
+    methods often fail to accurately retrieve results for negation and exclusion queries.
+    To address this limitation, prior approaches rely on embedding adaptation or fine-tuning,
+    which introduce additional computational cost and deployment complexity. We propose
+    Direct Embedding Optimization (DEO), a training-free method for negation-aware
+    text and multimodal retrieval. DEO decomposes queries into positive and negative
+    components and optimizes the query embedding with a contrastive objective. Without
+    additional training data or model updates, DEO outperforms baselines on NegConstraint,
+    with gains of +0.0738 nDCG@10 and +0.1028 MAP@100, while improving Recall@5 by
+    +6\% over OpenAI CLIP in multimodal retrieval. These results demonstrate the practicality
+    of DEO for negation- and exclusion-aware retrieval in real-world settings. The
+    code is publicly available at GitHub.
+  archival: false
+  attributes:
+    paper_type: research paper
+    presentation_type: poster
+  authors:
+  - dblp: https://dblp.org/pid/222/5910
+    email: tglee@miridih.com
+    first_name: Taegyeong
+    google_scholar: https://scholar.google.com/citations?user=pwYBFWQAAAAJ&hl=en
+    institution: Miri.DIH
+    last_name: Lee
+  - email: jiwonpark@hanyang.ac.kr
+    first_name: Jiwon
+    google_scholar: https://scholar.google.com/citations?user=zgd3vE8AAAAJ&hl=ko
+    institution: Hanyang University
+    last_name: Park
+    orcid: https://orcid.org/0009-0007-6289-3034
+  - email: hsh1030@g.skku.edu
+    first_name: Seunghyun
+    institution: Sungkyunkwan University
+    last_name: Hwang
+  - email: jyjang@miridih.com
+    first_name: JooYoung
+    google_scholar: https://scholar.google.co.kr/citations?hl=ko&user=ZWNWTicAAAAJ
+    institution: Miri.DIH
+    last_name: Jang
+  id: 2
+  title: 'DEO: Training-Free Direct Embedding Optimization for Negation-Aware Retrieval'
+- abstract: "Retrieval-Augmented Generation (RAG) represents a significant advancement\
+    \ in artificial intelligence combining a retrieval phase with a generative phase,\
+    \ with the latter typically being powered by Large Language Models (LLMs). \n\
+    Common wisdom and practices in RAG involve using \"instructed\" LLMs, which are\
+    \ fine-tuned with supervised training to enhance their ability to follow instructions\
+    \ and are aligned with human preferences using state-of-the-art techniques.\n\
+    However, contrary to this popular belief, our study demonstrates that base models\
+    \ outperform their instructed counterparts in RAG tasks by 20\\% on average under\
+    \ our experimental settings. \nThis finding challenges the prevailing assumptions\
+    \ about the superiority of instructed LLMs in RAG applications. \nFurther investigations\
+    \ reveal a more complex situation, questioning fundamental aspects of RAG and\
+    \ suggesting the need for broader discussions on the topic; or, as Fromm would\
+    \ have it, \"Seldom is a glance at the statistics enough to understand the meaning\
+    \ of the figures\"."
+  attachments:
+  - file: attachments/copyright/3.pdf
+    type: copyright
+  attributes:
+    paper_type: research paper
+    presentation_type: poster
+  authors:
+  - dblp: https://dblp.org/pid/353/0713
+    email: cuconasu@diag.uniroma1.it
+    first_name: Florin
+    google_scholar: https://scholar.google.com/citations?user=npwUdMUAAAAJ&hl=it
+    institution: Sapienza University of Rome
+    last_name: Cuconasu
+    orcid: https://orcid.org/0009-0008-9768-1047
+    semantic_scholar: https://www.semanticscholar.org/author/Florin-Cuconasu/2281641042
+  - dblp: https://dblp.org/pid/257/3318
+    email: ''
+    first_name: Giovanni
+    google_scholar: https://scholar.google.com/citations?user=Jldp2mYAAAAJ&hl=en&oi=ao
+    institution: Sapienza University of Rome; Universitas Mercatorum; ISTI-CNR
+    last_name: Trappolini
+    semantic_scholar: https://www.semanticscholar.org/author/Giovanni-Trappolini/120709579
+  - dblp: https://dblp.org/pid/44/5123
+    email: ''
+    first_name: Nicola
+    google_scholar: https://scholar.google.com/citations?hl=en&user=mTVRtZQAAAAJ
+    institution: University of Pisa
+    last_name: Tonellotto
+    orcid: https://orcid.org/0000-0002-7427-1001
+    semantic_scholar: https://www.semanticscholar.org/author/N.-Tonellotto/2783910
+  - dblp: https://dblp.org/pid/s/FabrizioSilvestri
+    email: ''
+    first_name: Fabrizio
+    google_scholar: https://scholar.google.com/citations?user=pi985dQAAAAJ&hl=en
+    institution: Sapienza University of Rome
+    last_name: Silvestri
+    orcid: https://orcid.org/0000-0001-7669-9055
+    semantic_scholar: https://www.semanticscholar.org/author/F.-Silvestri/144925193
+  end_page: 23
+  file: 3.pdf
+  id: 3
+  num_pages: 23
+  start_page: 1
+  title: 'A Tale of Trust and Accuracy: Base vs. Instruct LLMs in RAG Systems'
+- abstract: 'Retrieval-Augmented Generation (RAG) grounds language-model output in
+    external knowledge, yet its application to dense technical documentation remains
+    largely unexplored. Engineering software manuals pose compounding challenges:
+    formulae are corrupted during PDF extraction, heterogeneous content types require
+    different parsing treatment, and queries demand cross-document synthesis across
+    multiple reference volumes.
+
+    We present an end-to-end RAG system for OpenFOAM, an open-source computational
+    fluid dynamics toolkit, operating in two modes. In single-query mode, a formula-preserving
+    parser (Marker), adaptive header-aware chunking, two-stage dense-then-rerank retrieval,
+    and a citation-enforcement prompt produce grounded, source-attributed answers
+    across a 20-question benchmark.
+
+    In report mode, a user prompt is decomposed into sub-questions via LLM planning;
+    each sub-question undergoes independent retrieval and cross-encoder re-ranking,
+    and the deduplicated chunk set is passed to a long-context generation call that
+    produces a structured, multi-section report with inline citations.
+
+    Evaluated on a 10-prompt golden set with a six-dimension LLM-as-a-judge framework,
+    both pipelines achieve overall scores above 4.6/5.0 with perfect citation correctness
+    (5.0/5.0). The decomposed pipeline demonstrates superior robustness (90% vs 70%
+    judge success rate). Retrieval analysis using page-level ground truth reveals
+    low absolute recall (<14%), identifying retrieval breadth as the primary bottleneck.'
+  attachments:
+  - file: attachments/copyright/4.pdf
+    type: copyright
+  attributes:
+    paper_type: research paper
+    presentation_type: oral
+  authors:
+  - email: himanshudhurve96@gmail.com
+    first_name: Himanshu
+    google_scholar: https://scholar.google.com/citations?hl=en&user=WFsMhRwAAAAJ
+    institution: Vizuara AI Labs
+    last_name: Dhurve
+  - email: sreedath@vizuara.com
+    first_name: Sreedath
+    institution: Vizuara AI Labs
+    last_name: Panat
+  - email: rajat@vizuara.com
+    first_name: Rajat
+    google_scholar: https://scholar.google.com/citations?user=bU7G7K8AAAAJ&hl=en
+    institution: Vizuara AI Labs
+    last_name: Dandekar
+  - email: raj@vizuara.com
+    first_name: Raj
+    institution: Vizuara AI Labs
+    last_name: Dandekar
+  end_page: 35
+  file: 4.pdf
+  id: 4
+  num_pages: 12
+  start_page: 24
+  title: 'Decompose, Retrieve, Cite: A RAG Pipeline for Structured Report Generation
+    from Technical Documentation'
+- abstract: 'We introduce $\textbf{EncouRAGe}$, a comprehensive Python library designed
+    to streamline the development and evaluation of Retrieval-Augmented Generation
+    (RAG) systems using Large Language Models (LLMs) and Embedding Models. EncouRAGe
+    comprises five modular and extensible components: $\textit{Type Manifest}$, $\textit{RAG
+    Factory}$, $\textit{Inference}$, $\textit{Vector Store}$, and $\textit{Metrics}$,
+    facilitating flexible experimentation and extensible development. Each component
+    helps to make development RAG evaluation and emphasizes $\textbf{scientific reproducibility}$,
+    $\textbf{diverse evaluation metrics}$, and $\textbf{local deployment}$, enabling
+    researchers to efficiently assess datasets within RAG workflows. This paper presents
+    implementation details and an extensive evaluation across multiple benchmark datasets,
+    including $\textit{25k QA pairs}$ and $\textit{over 51k documents}$. Our results
+    show that RAG still underperforms compared to the $\textit{Oracle Context}$, while
+    $\textit{Hybrid BM25}$ consistently achieves the best results across all four
+    datasets. $\textbf{Code}$: https://github.com/uhh-hcds/encourage'
+  attachments:
+  - file: attachments/copyright/5.pdf
+    type: copyright
+  attributes:
+    paper_type: research paper
+    presentation_type: poster
+  authors:
+  - dblp: https://dblp.org/pid/385/9579.html
+    email: jan.strich@uni-hamburg.de
+    first_name: Jan
+    google_scholar: https://scholar.google.com/citations?user=ZOV6IUEAAAAJ&hl=en
+    institution: University of Hamburg
+    last_name: Strich
+    semantic_scholar: https://www.semanticscholar.org/author/Jan-Strich/2322145597
+  - dblp: https://dblp.org/pid/60/10118
+    email: martin.semmann@uni-hamburg.de
+    first_name: Martin
+    google_scholar: https://scholar.google.de/citations?user=p8UoPNcAAAAJ&hl
+    institution: University of Hamburg
+    last_name: Semmann
+    orcid: https://orcid.org/0000-0001-5316-3696
+    semantic_scholar: https://www.semanticscholar.org/author/Martin-Semmann/3317679
+  - dblp: https://dblp.org/pid/20/6100
+    email: chris.biemann@uni-hamburg.de
+    first_name: Chris
+    google_scholar: https://scholar.google.it/citations?hl=it&user=BdwP-3QAAAAJ
+    institution: University of Hamburg
+    last_name: Biemann
+  end_page: 46
+  file: 5.pdf
+  id: 5
+  num_pages: 11
+  start_page: 36
+  title: 'EncouRAGe: Evaluating RAG Local, Reliable, and Efficient'
+- abstract: 'Operational safety in mission-critical environments requires AI systems
+    that are accurate, interpretable, and resistant to hallucination. We present an
+    agentic Retrieval-Augmented Generation (RAG) framework, REFSafe, for grounded
+    hazard analysis and automated safety report generation. The system integrates
+    Large Language Models (LLMs) with structured operational data, historical incident
+    repositories, policy documents, and external authoritative sources. Through iterative
+    agentic reasoning, the framework retrieves, verifies, and synthesizes evidence
+    prior to generation, enforcing citation-backed outputs with explicit source attribution
+    (documents, links, and prior events) to ensure traceability and trust.
+
+    To mitigate hallucinations and unsupported claims, all risk assessments and forecasts
+    are constrained to retrieved evidence, with confidence signals derived from retrieval
+    relevance and source consistency. A transparent pipeline enables subject matter
+    experts (SMEs) to validate predictions, and provide structured feedback, forming
+    a continuous performance calibration loop. Preliminary deployment demonstrates
+    improved reliability in hazard detection and safety/vulnerability report generation.
+    This work advances trustworthy, evidence-grounded AI for predictive safety intelligence
+    in mission-critical operations.'
+  attachments:
+  - file: attachments/copyright/6.pdf
+    type: copyright
+  attributes:
+    paper_type: research paper
+    presentation_type: oral
+  authors:
+  - email: dass3@ornl.gov
+    first_name: Sanjay
+    google_scholar: https://scholar.google.com/citations?user=3ytmxroAAAAJ&hl=en
+    institution: Oak Ridge National Laboratory
+    last_name: Das
+    orcid: https://orcid.org/0009-0005-4259-1915
+  - email: elgedawyr@ornl.gov
+    first_name: Ran
+    institution: Oak Ridge National Laboratory
+    last_name: Elgedawy
+  - dblp: https://dblp.org/pid/358/2383
+    email: seefriedej@ornl.gov
+    first_name: Ethan
+    google_scholar: https://scholar.google.com/citations?user=z5yGpwgAAAAJ&hl=en
+    institution: Oak Ridge National Laboratory
+    last_name: Seefried
+    orcid: https://orcid.org/0009-0004-2268-9571
+  - email: burchfieldra@ornl.gov
+    first_name: Ryan
+    institution: Oak Ridge National Laboratory
+    last_name: Burchfield
+    middle_name: A.
+  - email: wigginsg@ornl.gov
+    first_name: Gavin
+    institution: Oak Ridge National Laboratory
+    last_name: Wiggins
+  - email: dana.hewit@srnl.gov
+    first_name: Dana
+    institution: Savannah River National Laboratory
+    last_name: Hewit
+  - email: srinivasans@ornl.gov
+    first_name: Sudarshan
+    google_scholar: https://scholar.google.com/citations?user=T0bexAwAAAAJ&hl=en
+    institution: Oak Ridge National Laboratory
+    last_name: Srinivasan
+    orcid: https://orcid.org/0000-0003-1222-7512
+  - email: pbalapra@ornl.gov
+    first_name: Prasanna
+    google_scholar: https://scholar.google.com/citations?user=ZycQHdgAAAAJ&hl=en
+    institution: Oak Ridge National Laboratory
+    last_name: Balaprakash
+    orcid: https://orcid.org/0000-0002-0292-5715
+  - email: pattonrm@ornl.gov
+    first_name: Robert
+    institution: Oak Ridge National Laboratory
+    last_name: Patton
+    middle_name: M.
+  - email: thomastm@ornl.gov
+    first_name: Todd
+    institution: Oak Ridge National Laboratory
+    last_name: Thomas
+  - dblp: https://dblp.org/pid/215/3590
+    email: ghosalt@ornl.gov
+    first_name: Tirthankar
+    google_scholar: https://scholar.google.com/citations?hl=en&user=Lbrvts4AAAAJ&view_op=list_works&sortby=pubdate
+    institution: Oak Ridge National Laboratory
+    last_name: Ghosal
+    orcid: https://orcid.org/0000-0002-2358-522X
+    semantic_scholar: https://www.semanticscholar.org/author/Tirthankar-Ghosal/13427974
+  end_page: 56
+  file: 6.pdf
+  id: 6
+  num_pages: 10
+  start_page: 47
+  title: 'REFSafE: A RAG-Enabled Framework for Predictive Risk Analysis and Automated
+    Safety Report Generation in Mission-Critical Environments'
+- abstract: "High-Risk Property (HRP) classification is critical at U.S. Department\
+    \ of Energy (DOE) sites, where inventories include sensitive and often dual-use\
+    \ equipment. Compliance must track evolving rules designated by various export\
+    \ control policies to make transparent and auditable decisions. Traditional expert-only\
+    \ workflows are time-consuming, backlog-prone, and struggle to keep pace with\
+    \ shifting regulatory boundaries. We propose ORCHID, a modular agentic framework\
+    \ for HRP classification that pairs retrieval-augmented generation (RAG) with\
+    \ human oversight to produce policy based outputs that can be audited. Small cooperating\
+    \ agents\u2014retrieval, description refiner, classifier, validator, and feedback\
+    \ logger\u2014coordinate via agent-to-agent messaging and invoke tools through\
+    \ the Model Context Protocol (MCP) for model-agnostic on-premise operation. The\
+    \ interface follows an \"Item to Evidence to Decision\" loop with step-by-step\
+    \ reasoning, on-policy citations, and append-only audit bundles (run-cards, prompts,\
+    \ evidence). In preliminary tests on real HRP cases, ORCHID improves accuracy\
+    \ and traceability over a non-agentic baseline while deferring uncertain items\
+    \ to Subject Matter Experts (SMEs). The demonstration shows single item submission,\
+    \ grounded citations, SME feedback capture, and exportable audit artifacts\u2014\
+    illustrating a practical path to trustworthy LLM assistance in sensitive DOE compliance\
+    \ workflows."
+  attachments:
+  - file: attachments/copyright/7.pdf
+    type: copyright
+  attributes:
+    paper_type: research paper
+    presentation_type: poster
+  authors:
+  - email: dass3@ornl.gov
+    first_name: Sanjay
+    google_scholar: https://scholar.google.com/citations?user=3ytmxroAAAAJ&hl=en
+    institution: Oak Ridge National Laboratory
+    last_name: Das
+    orcid: https://orcid.org/0009-0005-4259-1915
+  - email: mahbubm@ornl.gov
+    first_name: Maria
+    google_scholar: https://scholar.google.com/citations?user=dVn2_OsAAAAJ
+    institution: Oak Ridge National Laboratory
+    last_name: Mahbub
+  - email: lamav@ornl.gov
+    first_name: Vanessa
+    institution: Oak Ridge National Laboratory
+    last_name: Lama
+    orcid: https://orcid.org/0009-0002-9738-2860
+  - email: starksbm@ornl.gov
+    first_name: Brian
+    institution: Oak Ridge National Laboratory
+    last_name: Starks
+  - email: polchekcl@ornl.gov
+    first_name: Christopher
+    institution: Oak Ridge National Laboratory
+    last_name: Polchek
+  - email: silverssc@ornl.gov
+    first_name: Saffell
+    institution: Oak Ridge National Laboratory
+    last_name: Silvers
+  - email: decklm@ornl.gov
+    first_name: Lauren
+    institution: Oak Ridge National Laboratory
+    last_name: Deck
+  - email: pbalapra@ornl.gov
+    first_name: Prasanna
+    google_scholar: https://scholar.google.com/citations?user=ZycQHdgAAAAJ&hl=en
+    institution: Oak Ridge National Laboratory
+    last_name: Balaprakash
+    orcid: https://orcid.org/0000-0002-0292-5715
+  - email: pattonrm@ornl.gov
+    first_name: Robert
+    institution: Oak Ridge National Laboratory
+    last_name: Patton
+    middle_name: M.
+  - dblp: https://dblp.org/pid/215/3590
+    email: ghosalt@ornl.gov
+    first_name: Tirthankar
+    google_scholar: https://scholar.google.com/citations?hl=en&user=Lbrvts4AAAAJ&view_op=list_works&sortby=pubdate
+    institution: Oak Ridge National Laboratory
+    last_name: Ghosal
+    orcid: https://orcid.org/0000-0002-2358-522X
+    semantic_scholar: https://www.semanticscholar.org/author/Tirthankar-Ghosal/13427974
+  end_page: 64
+  file: 7.pdf
+  id: 7
+  num_pages: 8
+  start_page: 57
+  title: 'ORCHID: Orchestrated Retrieval-Augmented Classification of High-Risk Property
+    with Intelligent Decision-Making'
+- abstract: Automating systematic reviews (SRs), i.e., evidence-driven analyses under
+    explicit protocol constraints, is a natural target for retrieval-augmented generation
+    and deep research agents, yet existing benchmarks evaluate isolated subtasks or
+    assume fixed evidence inputs. We introduce RAG4SR-CS-200, a benchmark of 200 computer
+    science systematic reviews designed for protocol-driven systematic review automation.
+    Each instance comprises review objectives, research questions, eligibility criteria,
+    cleaned full-text review structure, references, and extracted tables. These elements
+    support evaluation across key tasks in systematic review creation such as literature
+    retrieval, eligibility screening, citation-grounded review generation, and structured
+    table generation, in both stage-wise and end-to-end settings. RAG4SR-CS-200 provides
+    a foundation for developing more reliable and diagnosable deep research agents
+    for scientific evidence synthesis. Code and data are publicly available (https://github.com/webis-de/rag4sr-cs-200).
+  attachments:
+  - file: attachments/copyright/8.pdf
+    type: copyright
+  attributes:
+    paper_type: research paper
+    presentation_type: poster
+  authors:
+  - email: ''
+    first_name: Pierre
+    google_scholar: https://scholar.google.com/citations?view_op=search_authors&mauthors=pierre+achkar&hl=de&oi=ao
+    institution: Leipzig University; Fraunhofer ISI
+    last_name: Achkar
+    orcid: https://orcid.org/0009-0007-0791-9078
+    semantic_scholar: https://www.semanticscholar.org/author/Pierre-Achkar/2356415698
+  - dblp: https://dblp.org/pid/17/10440
+    email: ''
+    first_name: Tim
+    institution: "Bauhaus-Universit\xE4t Weimar"
+    last_name: Gollub
+    semantic_scholar: https://www.semanticscholar.org/author/Tim-Gollub/2734888
+  - email: ''
+    first_name: Arno
+    institution: TU Berlin
+    last_name: Simons
+    orcid: https://orcid.org/0000-0003-0657-5254
+  - dblp: https://dblp.org/pid/194/5258
+    email: ''
+    first_name: Harrisen
+    google_scholar: https://scholar.google.com.au/citations?user=ltyPHacAAAAJ&hl=en
+    institution: "University of T\xFCbingen"
+    last_name: Scells
+    orcid: https://orcid.org/0000-0001-9578-7157
+    semantic_scholar: https://www.semanticscholar.org/author/Harrisen-Scells/8842143
+  - dblp: https://dblp.org/pid/256/9118
+    email: ''
+    first_name: Maik
+    google_scholar: https://scholar.google.de/citations?user=7IY_szEAAAAJ&hl=de&oi=ao
+    institution: "Friedrich-Schiller-Universit\xE4t Jena"
+    last_name: "Fr\xF6be"
+    orcid: https://orcid.org/0000-0002-1003-981X
+    semantic_scholar: https://www.semanticscholar.org/author/Maik-Fr%C3%B6be/1490763899
+  - dblp: https://dblp.org/pid/87/6573
+    email: ''
+    first_name: Martin
+    google_scholar: https://scholar.google.com/citations?user=a0W8R-cAAAAJ
+    institution: University of Kassel; hessian.AI; ScaDS.AI
+    last_name: Potthast
+    orcid: https://orcid.org/0000-0003-2451-0665
+    semantic_scholar: https://www.semanticscholar.org/author/Martin-Potthast/3046200
+  end_page: 70
+  file: 8.pdf
+  id: 8
+  num_pages: 6
+  start_page: 65
+  title: A Pipeline to Bootstrap the Evaluation of Retrieval-Augmented Generation
+    for the Automation of Systematic Reviews in Computer Science
+- abstract: We submitted a breadth of LLM-as-a-Judge approaches to Rag4Reports Task
+    A; our top method ranked first among all submitted systems. We find that citation
+    faithfulness is the most essential signal, and that content is best verified by
+    checking whether cited documents cover nuggets generated from the LLM's internal
+    knowledge.
+  attachments:
+  - file: attachments/copyright/9.pdf
+    type: copyright
+  attributes:
+    paper_type: shared task
+    presentation_type: N/A
+  authors:
+  - email: minna.tran@unh.edu
+    first_name: Minna
+    institution: University of New Hampshire
+    last_name: Tran
+  - email: mryan9393@gmail.com
+    first_name: Ryan
+    institution: University of New Hampshire
+    last_name: McCarthy
+  - email: aidenmp2323@gmail.com
+    first_name: Aiden
+    institution: University of New Hampshire
+    last_name: Parsons
+  - email: jarenunh@gmail.com
+    first_name: Jaren
+    institution: University of New Hampshire
+    last_name: Unzen
+  - email: dietz@cs.unh.edu
+    first_name: Laura
+    institution: University of New Hampshire
+    last_name: Dietz
+  end_page: 76
+  file: 9.pdf
+  id: 9
+  num_pages: 6
+  start_page: 71
+  title: 'UNH @ Rag4Reports: A Broad Exploration of LLM-Judges for RAG'
+- abstract: 'We submit to both tracks of the RAG4Reports challenge with two complementary
+    components: PREFNUGGET, which derives concise nugget banks from pairwise preference
+    judgments between system responses, and CRUCIBLE, a nugget-first pipeline that
+    uses such banks to assemble reports on a given topic. The shared nugget-level
+    representation unifies our approach to report evaluation (Task A) and report generation
+    (Task B).'
+  attachments:
+  - file: attachments/copyright/10.pdf
+    type: copyright
+  attributes:
+    paper_type: shared task
+    presentation_type: N/A
+  authors:
+  - email: dietz@cs.unh.edu
+    first_name: Laura
+    institution: University of New Hampshire
+    last_name: Dietz
+  - email: eugene.yang@jhu.edu
+    first_name: Eugene
+    institution: Johns Hopkins University
+    last_name: Yang
+  end_page: 82
+  file: 10.pdf
+  id: 10
+  num_pages: 6
+  start_page: 77
+  title: 'Crucible @ Rag4Reports: Generating Nuggets for Report Generation and Evaluation'
+- abstract: 'This paper describes the GenAIus submission to RAG4Reports 2026 Multilingual
+    Report Generation Task. Our system builds on our earlier TREC RAGTIME pipeline,
+    reusing the evidence preparation stages for overlapping topics, including question
+    generation, multilingual retrieval, nugget generation, and nugget clustering.
+    For RAG4Reports, we focused on the final generation stage and tested a citation-aware
+    compression strategy: generating the long report first from clustered evidence
+    nuggets and then deriving the short report from it, rather than generating both
+    length conditions independently. Our baseline run, which followed the original
+    TREC-style setup, ranked third overall. Our best run, genaius-cluster-gpt4, ranked
+    second overall with an F1 score of 0.5456, achieving the best balance among our
+    submissions between nugget coverage and sentence support. The results suggest
+    that citation-aware compression is a promising strategy for length-constrained,
+    citation-grounded report generation.'
+  attachments:
+  - file: attachments/copyright/11.pdf
+    type: copyright
+  attributes:
+    paper_type: shared task
+    presentation_type: N/A
+  authors:
+  - email: reyyan@genaius.tech
+    first_name: Reyyan
+    institution: GenAIus Technologies
+    last_name: Yeniterzi
+  - email: suveyda@genaius.tech
+    first_name: Suveyda
+    institution: GenAIus Technologies
+    last_name: Yeniterzi
+  end_page: 88
+  file: 11.pdf
+  id: 11
+  num_pages: 6
+  start_page: 83
+  title: 'GenAIus at RAG4Reports 2026: Citation-Aware Compression for Multilingual
+    Report Generation'
+- abstract: 'This system paper presents AMU''s submission to RAG4Reports 2026 Task
+    B: a practical multilingual retrieval-augmented generation pipeline for evidence-supported
+    report generation. The system combines full-query retrieval, optional query rewriting,
+    dense retrieval with Qdrant, cross-encoder reranking, diversity-aware context
+    selection, and structured generation. The best submitted run uses BAAI/bge-m3
+    embeddings, BAAI/bge-reranker-v2-m3 reranking, and gpt-5.1 generation with medium
+    reasoning effort, using a partial-coverage prompt strategy. On the official leaderboard,
+    it achieved F1=0.4351, sentence_support=0.8280, and nugget_coverage=0.3403, indicating
+    that the generated reports were well grounded but only partially comprehensive.'
+  attachments:
+  - file: attachments/copyright/12.pdf
+    type: copyright
+  attributes:
+    paper_type: shared task
+    presentation_type: N/A
+  authors:
+  - email: maciej.czajka@amu.edu.pl
+    first_name: Maciej
+    institution: "Adam Mickiewicz University; AMUAI; Center for Artificial Intelligence,\
+      \ Pozna\u0144"
+    last_name: Czajka
+  - email: ''
+    first_name: Piotr
+    institution: "Adam Mickiewicz University; AMUAI; Center for Artificial Intelligence,\
+      \ Pozna\u0144"
+    last_name: "Jab\u0142o\u0144ski"
+  - email: ''
+    first_name: Mateusz
+    institution: "Adam Mickiewicz University; AMUAI; Center for Artificial Intelligence,\
+      \ Pozna\u0144"
+    last_name: Czajka
+  - email: ''
+    first_name: Konrad
+    institution: "Adam Mickiewicz University; AMUAI; Center for Artificial Intelligence,\
+      \ Pozna\u0144"
+    last_name: "Pierzy\u0144ski"
+  - email: ''
+    first_name: Krzysztof
+    institution: "Adam Mickiewicz University; Center for Artificial Intelligence,\
+      \ Pozna\u0144"
+    last_name: Jassem
+  end_page: 93
+  file: 12.pdf
+  id: 12
+  num_pages: 5
+  start_page: 89
+  title: 'AMU at RAG4Reports 2026 Task B: A Practical Multilingual RAG Pipeline for
+    Citation-Grounded Reports'
+- abstract: 'Reliable automatic evaluation of retrieval-grounded long-form reports
+    typically requires human annotation or frontier-scale proprietary LLMs, both of
+    which are expensive in constrained settings. Team rgipt participated in RAG4Reports@ACL
+    2026 Task 1 with a zero-shot nugget-verification system that runs entirely on
+    a single NVIDIA T4 GPU. We compare three ultra-lightweight decoder-only models:
+    Qwen2-0.5B, Qwen2-1.5B, and Qwen2.5-0.5B, under identical inference conditions
+    to examine how small an LLM judge can be while retaining human-aligned ranking
+    signal. Both Qwen2 models produced negative $\tau_{\text{gap}}$, whereas Qwen2.5-0.5B
+    achieved $\tau_{\text{gap}} = 0.0772$ and Pearson $r = 0.2209$, ranking 13th of
+    21 teams. Within this family and evaluation setting, model generation appears
+    to matter more than parameter count, although this finding is based on three configurations
+    on a single task and warrants further validation.'
+  attachments:
+  - file: attachments/copyright/13.pdf
+    type: copyright
+  attributes:
+    paper_type: shared task
+    presentation_type: N/A
+  authors:
+  - email: ''
+    first_name: Mann
+    institution: Rajiv Gandhi Institute of Petroleum Technology
+    last_name: Bajpai
+  - email: ''
+    first_name: Pulkit
+    institution: Rajiv Gandhi Institute of Petroleum Technology
+    last_name: Chatwal
+  - email: ''
+    first_name: Priyanshu
+    institution: Rajiv Gandhi Institute of Petroleum Technology
+    last_name: Deswal
+  - email: ''
+    first_name: Harish Pratap
+    institution: Rajiv Gandhi Institute of Petroleum Technology
+    last_name: Singh
+  - email: ''
+    first_name: Santosh Kumar
+    institution: Rajiv Gandhi Institute of Petroleum Technology
+    last_name: Mishra
+  end_page: 98
+  file: 13.pdf
+  id: 13
+  num_pages: 5
+  start_page: 94
+  title: Exploring Capability Thresholds in Ultra-Lightweight LLM Judges for Nugget-Based
+    Report Evaluation
+- abstract: 'We describe EFSG (Evidence-First Structured Generation), our submission
+    to Task B of the RAG4Reports@ACL 2026 shared task. Standard retrieval-augmented
+    generation pipelines allow generation models to write from parametric memory and
+    attach citations retroactively: a behaviour we term post-rationalization. EFSG
+    addresses this structurally through a phase boundary: all evidence is retrieved,
+    extracted, and sealed into a fact pool before any generation begins; each sentence
+    then sees only its single committed source passage. Our best run (t5100k doc corpus)
+    achieved sentence_support of 0.612 and nugget_coverage of 0.126 (F1 = 0.182).'
+  attachments:
+  - file: attachments/copyright/14.pdf
+    type: copyright
+  attributes:
+    paper_type: shared task
+    presentation_type: N/A
+  authors:
+  - email: sgupta8_be24@thapar.edu
+    first_name: Shaurya
+    institution: Thapar Institute of Engineering and Technology
+    last_name: Gupta
+  - email: jatin.bedi@thapar.edu
+    first_name: Jatin
+    institution: Thapar Institute of Engineering and Technology
+    last_name: Bedi
+  end_page: 102
+  file: 14.pdf
+  id: 14
+  num_pages: 4
+  start_page: 99
+  title: 'EFSG: Evidence-First Structured Generation for Multilingual RAG Report Generation'
+- abstract: 'We adapt the AutoARGUE framework (Walden et al., 2026) for Task A.2 of
+    RAG4Reports 2026, which requires ranking 57 report generation systems across 68
+    topics using automated evaluation. The RAGTIME-1 corpus poses a fundamental challenge:
+    all nugget annotations use a no-reference-doc sentinel rather than ground-truth
+    document citations, rendering the original citation-relevance gating inoperable.
+    We address this with three adaptations: automatic sentinel detection with forced
+    direct LLM-based nugget matching; a WEAK POSITIVE partial credit mechanism for
+    sentences that correctly answer nuggets but lack attesting citations; and a report-level
+    request alignment check. Our nugget_coverage_weighted metric achieves the highest
+    topic-level Pearson correlation (r=0.599) of any non-coordinator submission, closely
+    approaching the coordinator baseline (r=0.607).'
+  attachments:
+  - file: attachments/copyright/15.pdf
+    type: copyright
+  attributes:
+    paper_type: shared task
+    presentation_type: N/A
+  authors:
+  - email: divrose19@gmail.com
+    first_name: Divrose
+    institution: Thapar Institute of Engineering and Technology
+    last_name: Kaur
+  - email: jatin.bedi@thapar.edu
+    first_name: Jatin
+    institution: Thapar Institute of Engineering and Technology
+    last_name: Bedi
+  - email: jasmeet.singh@thapar.edu
+    first_name: Jasmeet
+    institution: Thapar Institute of Engineering and Technology
+    last_name: Singh
+  end_page: 107
+  file: 15.pdf
+  id: 15
+  num_pages: 5
+  start_page: 103
+  title: Adapting AutoARGUE for Automatic Report Evaluation under Missing Citation
+    Annotations
+- abstract: "In the present article, we have described our system developed for participating\
+    \ in Task B on Multilingual Report Generation under RAG4Reports 2026 at ACL 2026\
+    \ with submitted run ID ju_nlp_pg. The problem statement is given a report request\
+    \ in English, the system retrieves relevant passages from a four million multilingual\
+    \ document corpus (English, Chinese, Russian, Arabic) and generates a grounded,\
+    \ citation-bearing report. Our core challenge was how to fit a large retrieval\
+    \ corpus along with a capable generative model on a two-GPU node with \u224829\
+    \ GB RAM. We addressed the challenge employing three different techniques: (1)\
+    \ 4-bit NF4 quantization, shrinking the LLM from \u224814 GB to \u22484 GB; (2)\
+    \ memory-mapped, chunked FAISS index construction over pre-computed multilingual-e5-large\
+    \ embeddings; and (3) strict model-loading order to prevent heap fragmentation.\
+    \ On the other hand, the reports are structured around topic nuggets to directly\
+    \ target the Auto-ARGUE evaluation signal."
+  attachments:
+  - file: attachments/copyright/16.pdf
+    type: copyright
+  attributes:
+    paper_type: shared task
+    presentation_type: N/A
+  authors:
+  - email: swayam.internship@gmail.com
+    first_name: Swayam
+    institution: Jadavpur University
+    last_name: Chatterjee
+  - email: dipankar.dipnil2005@gmail.com
+    first_name: Dipankar
+    institution: Jadavpur University
+    last_name: Das
+  end_page: 112
+  file: 16.pdf
+  id: 16
+  num_pages: 5
+  start_page: 108
+  title: 'JU-NLP-PG at RAG4Reports 2026: Memory-Efficient Multilingual Report Generation
+    with 4-bit Quantized LLMs'

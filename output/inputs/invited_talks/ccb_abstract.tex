@@ -1,0 +1,17 @@
+LLM-as-a-judge has become the default for evaluating open-ended generation, but
+the approach is riddled with silent failure modes, including position bias,
+verbosity bias, criterion conflation, sycophancy, and run-to-run inconsistency,
+that corrupt judgments without any visible signal. Mitigations exist, scattered
+across the LM-as-judge literature and decades of work in psychometrics and
+educational measurement, but every research group ends up paying a
+``Reinvention Tax,'' reimplementing option shuffling, ensemble voting,
+calibration, and reliability metrics from scratch.
+
+I will present Autorubric, an open-source framework that consolidates these
+best practices into a single library with opinionated defaults: analytic
+per-criterion decomposition, mixed criterion types, ensemble judging, length
+penalties, and a full suite of psychometric reliability metrics. Beyond
+measurement, Autorubric's mandatory per-criterion explanations function as
+``textual gradients'' for two downstream applications: rubric-guided prompt
+induction and RL with rubric rewards. Autorubric is available at
+\url{https://autorubric.org}.
